@@ -1,0 +1,16 @@
+
+li:first-child {
+    background-color:blue;
+}
+
+li:nth-child(2) {
+    background-color: teal;
+}
+
+button {
+    background-color: red;
+}
+
+button:hover {
+  background-color: blue;
+}

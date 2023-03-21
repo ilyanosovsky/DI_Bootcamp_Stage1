@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(235, 183, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(253, 255, 228);
+    border: dashed 3px;
+    
+}
+
+#upper {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    border-bottom: dashed 3px;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}

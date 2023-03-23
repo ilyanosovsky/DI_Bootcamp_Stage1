@@ -1,16 +1,31 @@
-
-li:first-child {
-    background-color:blue;
+body {
+    margin: 0px;
 }
 
-li:nth-child(2) {
-    background-color: teal;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-button {
-    background-color: red;
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
 }
 
-button:hover {
-  background-color: blue;
+img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 90%;
+    margin-left: 10px;
+  }
+  div,footer {
+    display: inline-block;
+    height: 100px;
+  }
+  .container {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .left-pane, .right-pane, footer {
+    border: 3px solid black;
+  }
+  .left-pane {
+    width: 35%;
+    background: red;
+    margin-right: 3%;
+  }
+  .right-pane {
+    width: 60%;
+    background: lightblue;
+  }
+  footer {
+    width: 98.5%;
+    background: yellow;
+  }

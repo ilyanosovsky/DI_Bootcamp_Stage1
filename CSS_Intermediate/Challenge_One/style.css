@@ -1,3 +1,30 @@
-#wrap, #content {
-    display: flexbox;
+body {
+    background-color: rgb(129, 157, 255);
+    margin: 0;
 }
+
+#wrap {
+    display: flex;
+    text-align: center;
+}
+
+#nav {
+    background-color: rgb(225, 205, 243);
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+#content {
+    background-color: rgb(99, 99, 236);
+    float: right;
+    width: 60%;
+    margin-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#right {
+    list-style-type: none;
+}
+

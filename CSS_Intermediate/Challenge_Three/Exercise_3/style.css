@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 90%;
+    margin-left: 10px;
+  }
+  div, header {
+    display: inline-block;
+    
+  }
+
+  header {
+    width: 96.5%;
+    background: purple;
+    height: 100px;
+  }
+
+
+  .container {
+    margin: 20px 0px;
+    width: 100%;
+
+  }
+  .left-pane, .right-pane, .center-pane, header{
+    border: 3px solid black;
+    height: 300px;
+  }
+  .left-pane {
+    width: 30%;
+    background: red;
+    margin-right: 3%;
+
+  }
+
+  .center-pane {
+    width: 30%;
+    background: green;
+    margin-right: 3%;
+
+  }
+
+  .right-pane {
+    width: 30%;
+    background: orange;
+
+  }
